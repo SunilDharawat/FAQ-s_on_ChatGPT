@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: teal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    padding: 30px 50px;
+}
+
+.box {
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.question {
+    margin: 5px;
+    font-size: 1.4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.answer {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    display: none;
+    transition: 0.2s;
+    color: rgb(108, 108, 108);
+}
+
+.ans {
+    display: block;
+}
+
+span {
+    font-weight: bolder;
+    color: black;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    transition: 0.2s;
+}
+
+.active {
+    transform: rotate(180deg);
+}
+
+/* Media Quary for destop application */
+@media screen and (min-width: 1024px) {
+    .container {
+        padding: 30px 100px;
+    }
+}
